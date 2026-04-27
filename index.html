@@ -8,6 +8,11 @@
     <link href="https://unpkg.com/tailwindcss@1.9.6/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body class="mx-24" style="font-family: 'Space Grotesk', sans-serif; font-optical-sizing: auto; font-style: normal;">
@@ -17,8 +22,8 @@
         <a href="#" class="text-3xl font-bold text-black">ASC</a>
         <!-- Right: Links and Button -->
         <div class="flex items-center gap-4">
-            <a href="#" class="text-black hover:text-yellow-400 font-medium transition">Services</a>
-            <a href="#" class="text-black hover:text-yellow-400 font-medium transition">Workflow</a>
+            <a href="#services" class="text-black hover:text-yellow-400 font-medium transition">Services</a>
+            <a href="#workflow" class="text-black hover:text-yellow-400 font-medium transition">Workflow</a>
             <button class="ml-2 px-4 py-2 border border-black text-black rounded hover:bg-yellow-300 transition">Contact Us</button>
         </div>
     </nav>
@@ -39,7 +44,7 @@
         </div>
 
         <!-- Services Section -->
-        <div>
+        <div id="services">
             <div class="flex  items-start justify-start gap-10 px-8 py-8 w-full max-w-6xl">
                 <h1 class="bg-yellow-300 text-gray-900 font-bold text-4xl px-4 py-2 rounded">Services</h1>
                 <p class="text-black text-base md:text-lg flex-1">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
@@ -104,7 +109,7 @@
         </div>
 
         <!-- Workflow Steps -->
-        <div>
+        <div id="workflow">
             <div class="flex  items-start justify-start gap-4 px-8 py-8 w-full max-w-6xl">
                 <h1 class="bg-yellow-300 text-gray-900 font-bold text-2xl px-4 py-2 rounded">Our System Workflow</h1>
                 <p class="text-gray-700 text-base md:text-lg flex-1">Step-by-Step Guide to Achieving Your Business Goals</p>
